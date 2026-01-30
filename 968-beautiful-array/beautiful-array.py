@@ -1,7 +1,7 @@
 class Solution:
     def beautifulArray(self, n: int) -> List[int]:
         memo = {1:[1]}
-
+        #BA
         def helper(n):
             if n not in memo:
                 odds = helper((n + 1) // 2)
