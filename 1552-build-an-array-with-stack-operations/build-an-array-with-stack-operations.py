@@ -1,5 +1,5 @@
 class Solution:
-    def buildArray(self, target: List[int], n: int) -> List[str]:
+    def buildArray(self, target: List[int], n: int) -> List[str]:#
         stack = []
         num = 1
         j = 0
