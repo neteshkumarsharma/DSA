@@ -1,6 +1,6 @@
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
-        row_count = {}
+        row_count = {}#
         
         for row, seat in reservedSeats:
             if 1 <= seat <= 10:  
