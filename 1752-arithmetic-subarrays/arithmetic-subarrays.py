@@ -1,6 +1,6 @@
 class Solution:
     def checkArithmeticSubarrays(self, nums: List[int], l: List[int], r: List[int]) -> List[bool]:
-        res = []
+        res = []#
         for i in range(len(l)):
             arr = nums[l[i]:r[i] + 1]
             arr.sort()
