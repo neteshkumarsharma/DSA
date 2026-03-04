@@ -1,6 +1,6 @@
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
-        total = sum(nums) % p
+        total = sum(nums) % p#
         if total == 0:
             return 0
         last = {0: -1}
